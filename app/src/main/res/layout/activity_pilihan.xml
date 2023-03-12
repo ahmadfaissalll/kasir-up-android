@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="20px">
+
+    <Button
+        android:id="@+id/btnLoginAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580px"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/white"
+        android:text="Login Admin">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470px"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/white"
+        android:text="User">
+
+    </Button>
+
+
+</LinearLayout>
