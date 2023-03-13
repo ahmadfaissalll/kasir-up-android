@@ -93,8 +93,8 @@ public class ProdukAdmin extends AppCompatActivity implements ListView.OnItemCli
 
         simpleAdapter = new SimpleAdapter(
                 ProdukAdmin.this, list, R.layout.list_item_produk_admin,
-                new String[]{"no", Konfigurasi.TAG_PRODUK_ID, Konfigurasi.TAG_PRODUK_NAMA, Konfigurasi.TAG_PRODUK_DESKRIPSI, Konfigurasi.TAG_PRODUK_HARGA, Konfigurasi.TAG_PRODUK_STOK, Konfigurasi.TAG_PRODUK_CREATED_AT},
-                new int[]{R.id.no, R.id.id, R.id.nama, R.id.deskripsi, R.id.harga, R.id.stok, R.id.createdAt});
+                new String[]{"no", Konfigurasi.TAG_PRODUK_NAMA, Konfigurasi.TAG_PRODUK_DESKRIPSI, Konfigurasi.TAG_PRODUK_HARGA, Konfigurasi.TAG_PRODUK_STOK, Konfigurasi.TAG_PRODUK_CREATED_AT},
+                new int[]{R.id.no, R.id.nama, R.id.deskripsi, R.id.harga, R.id.stok, R.id.createdAt});
         listView.setAdapter(simpleAdapter);
     }
 
