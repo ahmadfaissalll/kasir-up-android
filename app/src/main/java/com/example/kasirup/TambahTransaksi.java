@@ -155,6 +155,15 @@ public class TambahTransaksi extends AppCompatActivity {
                     }
                 }, year, month, day);
 
+                if ( !tanggalPembelian.isEmpty() ) {
+                    String[] splittedtanggalPembelian = tanggalPembelian.split("[-]");
+                    int year = Integer.parseInt(splittedtanggalPembelian[0]);
+                    int month = Integer.parseInt(splittedtanggalPembelian[1]) - 1;
+                    int day = Integer.parseInt(splittedtanggalPembelian[2]);
+
+                    datePickerDialog.updateDate(year, month, day);
+                }
+
                 datePickerDialog.show();
             }
         });
