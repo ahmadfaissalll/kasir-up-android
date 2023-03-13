@@ -111,8 +111,8 @@ public class Transaksi extends AppCompatActivity implements ListView.OnItemClick
 
         simpleAdapter = new SimpleAdapter(
                 Transaksi.this, list, R.layout.list_item_transaksi,
-                new String[]{"no", Konfigurasi.TAG_TRANSAKSI_ID_PRODUK, Konfigurasi.TAG_TRANSAKSI_NAMA_PRODUK, Konfigurasi.TAG_TRANSAKSI_HARGA, Konfigurasi.TAG_TRANSAKSI_KUANTITAS, Konfigurasi.TAG_TRANSAKSI_TOTAL_HARGA, Konfigurasi.TAG_TRANSAKSI_UANG_BAYAR, Konfigurasi.TAG_TRANSAKSI_UANG_KEMBALIAN, Konfigurasi.TAG_TRANSAKSI_TANGGAL_PEMBELIAN},
-                new int[]{R.id.no, R.id.idProduk, R.id.namaProduk, R.id.harga, R.id.kuantitas, R.id.totalHarga, R.id.uangBayar, R.id.uangKembalian, R.id.tanggalPembelian});
+                new String[]{"no", Konfigurasi.TAG_TRANSAKSI_NAMA_PRODUK, Konfigurasi.TAG_TRANSAKSI_HARGA, Konfigurasi.TAG_TRANSAKSI_KUANTITAS, Konfigurasi.TAG_TRANSAKSI_TOTAL_HARGA, Konfigurasi.TAG_TRANSAKSI_UANG_BAYAR, Konfigurasi.TAG_TRANSAKSI_UANG_KEMBALIAN, Konfigurasi.TAG_TRANSAKSI_TANGGAL_PEMBELIAN},
+                new int[]{R.id.no, R.id.namaProduk, R.id.harga, R.id.kuantitas, R.id.totalHarga, R.id.uangBayar, R.id.uangKembalian, R.id.tanggalPembelian});
         listView.setAdapter(simpleAdapter);
     }
 
